@@ -7,4 +7,4 @@ contract Usdt is ERC20 {
   constructor() ERC20('USDT', 'Tether') {
     _mint(msg.sender, 5000 * 10**18);
   }
-}
+} 
