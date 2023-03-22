@@ -25,7 +25,7 @@ async function main() {
   );
   await bankContract.whitelistToken(
     ethers.utils.formatBytes32String('Eth'),
-    '0xE8E7421F7535dD00626383f38Eb9d487A9C7AE40'
+    'x70997970C51812dc3A010C7d01b50e0d17dc79C8 '
   );
 
   console.log("Bank deployed to:", bankContract.address, "by", signer1.address);
